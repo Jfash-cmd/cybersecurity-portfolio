@@ -18,7 +18,7 @@ Medium — requires a victim to visit a crafted URL/search, but enables arbitrar
 
 <img src=1 onerror=alert(1)> ``` ```
 
-![DOM XSS alert firing in search bar](./images/dom-xss-alert.png)
+![DOM XSS alert firing in search bar](./dom-xss-alert.jpg)
 
 ### Root Cause
 User input from the search field is inserted into the DOM without encoding, allowing injected HTML/event-handler attributes to execute as real code.
