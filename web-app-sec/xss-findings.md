@@ -48,7 +48,7 @@ Medium — requires a victim to click a malicious tracking link, but enables arb
 
 http://localhost:3000/#/track-result?id=<iframe src="javascript:alert(`xss`)">
 
-![Reflected XSS alert firing on track-result page](./images/reflected-xss-alert.png)
+![Reflected XSS alert firing on track-result page](./reflected-xss-alert.png)
 
 ### Root Cause
 The order ID from the URL is echoed directly into the page's heading without input validation or output encoding.
